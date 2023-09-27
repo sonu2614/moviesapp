@@ -1,0 +1,22 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(131,16,16);
+}
+
+.movie-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+.movie-list h1{
+    color: white;
+}
+
+.movie-display{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:black;
+}
